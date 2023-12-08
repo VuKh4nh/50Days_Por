@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+        315deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.countdown .text {
+    font-weight: 700;
+}
+/* ====== img ====== */
+.waiting {
+    margin-top: 40px;
+    height: 50vh;
+}
